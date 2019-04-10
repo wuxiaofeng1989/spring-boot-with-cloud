@@ -1,0 +1,3 @@
+com\itmuch\cloud\miscroserviceconsumermovieribbon\MiscroserviceConsumerMovieRibbonWithHystrixApplication.class
+com\itmuch\cloud\miscroserviceconsumermovieribbon\controller\MovieRibbonController.class
+com\itmuch\cloud\miscroserviceconsumermovieribbon\entity\User.class
