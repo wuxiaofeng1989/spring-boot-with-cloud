@@ -11,6 +11,7 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>miscroservice-provider-user</module>
+		<module>miscroservice-consuer-movie-feign-with-hystrix-hystrix-factory</module>
 		<module>miscroservice-consumer-movie</module>
 		<module>miscroservice-consumer-movie-ribbon</module>
 		<module>miscroservice-discovery-eureka</module>
@@ -18,6 +19,7 @@
 		<module>miscroservice-consumer-movie-feign-customizing</module>
 		<module>miscroservice-consumer-movie-hystrix</module>
 		<module>miscroservice-redis-cache</module>
+		<module>miscroservice-consumer-movie-hystrix-propagation</module>
         <module>miscroservice-consuer-movie-feign-with-hystrix</module>
 		<module>miscroservice-consumer-movie-ribbon-properties-customizing</module>
 		<module>miscroservice-consumer-movie-ribbon-without-eureka</module>
@@ -25,6 +27,9 @@
 		<module>miscroservice-consuer-movie-feign-customizing-without-hystrix</module>
 		<module>miscroservice-hystrix-turbine</module>
 		<module>miscroservice-consumer-movie-ribbon-with-hystrix</module>
+		<module>miscroservice-hystrix-dashboard</module>
+		<module>miscroservice-gateway-zuul</module>
+		<module>miscroservice-gateway-zuul-reg-exp</module>
 	</modules>
 	<groupId>com.itmuch.cloud</groupId>
 	<artifactId>miscroservice-spring-cloud</artifactId>
