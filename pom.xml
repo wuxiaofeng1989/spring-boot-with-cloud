@@ -30,6 +30,9 @@
 		<module>miscroservice-hystrix-dashboard</module>
 		<module>miscroservice-gateway-zuul</module>
 		<module>miscroservice-gateway-zuul-reg-exp</module>
+		<module>miscroservice-file-upload</module>
+		<module>miscroservice-gateway-zuul-fallback</module>
+		<module>miscroservice-gateway-zuul-filter</module>
 	</modules>
 	<groupId>com.itmuch.cloud</groupId>
 	<artifactId>miscroservice-spring-cloud</artifactId>
