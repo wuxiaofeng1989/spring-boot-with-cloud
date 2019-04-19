@@ -1,0 +1,16 @@
+#设置eureka server端口
+server.port=8040
+eureka.client.service-url.defaultZone= http://admin:123@localhost:8761/eureka/
+#注册到eureka servce上
+spring.application.name=miscroservice-gateway-zuul
+eureka.instance.prefer-ip-address=true
+
+
+#zuul默认反向代理所有的微服务。
+
+#修改反向代理的默认配置，除了定义的反向代理，其余都不代理。
+zuul.ignored-services=*
+#/*表示只能匹配下一级目录，/**能够匹配二级。以此类推。
+zuul.routes.userService.path=/user-url/**
+#使用url不会被hystirx和ribbon使用，不能负载均衡
+zuul.routes.userService.url=http://localhost:7900/

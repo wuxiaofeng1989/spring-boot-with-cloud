@@ -1,0 +1,9 @@
+com\itmuch\cloud\miscroserviceconsuermoviefeignwithhystrix\feign\FeignClient2FallBack.class
+com\itmuch\cloud\miscroserviceconsuermoviefeignwithhystrix\feign\UserFeignClient.class
+com\itmuch\cloud\miscroserviceconsuermoviefeignwithhystrix\entity\User.class
+com\itmuch\cloud\miscroserviceconsuermoviefeignwithhystrix\feign\HystrixCliendFallBack.class
+com\itmuch\cloud\miscroserviceconsuermoviefeignwithhystrix\feign\FeignCliend2.class
+com\itmuch\cloud\miscroserviceconsuermoviefeignwithhystrix\MiscroserviceConsuerMovieFeignCustomizingWithoutHystrixApplication.class
+com\itmuch\config\Configuration2.class
+com\itmuch\cloud\miscroserviceconsuermoviefeignwithhystrix\controller\MovieController.class
+com\itmuch\config\Configuration1.class
