@@ -1,2 +1,2 @@
-# spring-boot-with-cloud
+# spring-cloud
 学习springboot和springcloud
