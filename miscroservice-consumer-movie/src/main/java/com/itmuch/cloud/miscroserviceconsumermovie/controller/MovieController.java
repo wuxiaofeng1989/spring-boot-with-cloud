@@ -16,9 +16,6 @@ public class MovieController {
 
     @GetMapping("/simple/{id}")
     public User findById(@PathVariable Long id ){
-        Stack stack = new Stack();
-        stack.push("ssss");
-
-        return restTemplate.getForObject("http://localhost:7901/simple/"+id,User.class);
+        return restTemplate.getForObject("http://localhost:7900/simple/"+id,User.class);
     }
 }
